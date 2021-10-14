@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Volunteer Log In-Donate For Bangladesh</title>
+
+<style>
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+div {
+  float: right;
+  background-color: #dacdcd;
+  width: 550px;
+  border: 0px solid green;
+  padding: 50px;
+  margin: auto;
+  border-radius: 25px;
+}
+body {
+  background-image: url("Login_Volunteer.png");
+  background-repeat: 2;
+  background-size: 680px 500px;
+  font-family: Georgia;
+  background-color: #5c5d6b;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: #373434;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #ffffff; 
+  color: #111110;
+  border-radius: 25px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #b5bbfc;
+  color: white;
+  padding: 6px 10px;
+  margin: 2px;
+  border: 1;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 25px;
+  font-size: 25px;
+  style="font-family: Barnsley Gothic"
+}
+
+.registerbtn:hover {
+  background-color: transparent;
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #2c2828;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<form action="/action_page.php">
+  <div class="container">
+    <p style="font-family: Georgia;font-size: 35px;">Log In as Volunteer</p>
+    <hr>
+	
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <button type="submit" class="registerbtn">Log In</button>
+  </div>
+  
+  <div class="container signin">
+    <p>Don’t have an account? <a href="Reg_Volunteer.html">Sign up</a>.</p>
+  </div>
+</form>
+
+</body>
+</html>
